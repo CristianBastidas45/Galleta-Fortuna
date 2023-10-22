@@ -1,0 +1,58 @@
+.app{
+    background-image: url(/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    /* min-width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app__title{
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-shadow: 5px 7px #8887;
+    
+}
+.app__card{
+    padding: 1.5em 2em;
+    width: 100%;
+    max-width: 700px;
+}
+.app__ban{
+    background-image: url(/fondoPhrase.png);
+    filter: drop-shadow(10px 10px #9997);
+    background-size: cover;
+    background-position: center;
+    min-height: 25vh;
+    aspect-ratio: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app__phrase{
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 60%;
+    max-height: 90%;
+}
+.app__btn{
+    color: gray;
+    border: 5px solid white;
+    display: block; 
+    margin: auto; 
+    margin-top: 1.5em;
+    padding: 0.8em 2em;
+    font-size: 1.1rem;
+    border-radius: 1.5em;
+    transition: font-size 100ms ease;
+}
+.app__btn:hover{
+    /* font-size: 1rem; */
+    box-shadow: 5px 5px 5px 5px gray;
+}
